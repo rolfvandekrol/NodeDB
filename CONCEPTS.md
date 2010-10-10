@@ -1,5 +1,5 @@
 Nodes &amp; Node Types
-======================
+----------------------
 
 A Node is an entity that is saved in the Database. It is always of a certain
 Node Type. To understand the concept of Nodes and Node Types, one can compare a
@@ -18,7 +18,7 @@ can also be defined as Abstract, which prevents the creation of Nodes of that
 Type.
 
 Fields
-======
+------
 
 A Field is some information that is attached to a Node, for example a title, a
 description and all other kinds of information. The available Fields are defined
@@ -30,7 +30,7 @@ define only one String Column, but a 'latlng' Field Type would define two Float
 Columns for the latitude and the longitude.
 
 Versions
-========
+--------
 
 A Node can have multiple Versions. The values for the Fields are stored per
 Version. It is up to the implementation whether values are internally shared
@@ -72,7 +72,7 @@ Version label Types are linked to Node Types and are only available on Versions
 of Nodes of the linked Node Types.
 
 Node Relationships
-==================
+------------------
 
 Nodes can be related. For example a Article Node can be related to a Person
 Node, (in some publication database, in a CMS a User Node would probably be
@@ -150,7 +150,7 @@ Relationship Type. This behavior is defined by some properties.
         that points to it. This allows for an Article to have only on Author.
 
 Namespaces &amp; Prefixes
-=========================
+-------------------------
 
 Namespaces are Node Containers. A Node can be placed in a Namespace. This is
 usefull to group the Nodes into logical sections, on Database Level. This is
@@ -168,7 +168,7 @@ A Node Type can also be linked to Namespaces. A Namespace can only contain Nodes
 of a Node Type that is linked to that Namespace.
 
 Databases
-=========
+---------
 
 A Database is a container for everything. There is nothing which does not belong
 to a Database and there is nothing that is shared over more than one Database.
