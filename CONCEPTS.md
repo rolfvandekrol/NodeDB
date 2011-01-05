@@ -138,6 +138,7 @@ Relationship Type. This behavior is defined by some properties.
         same Version Label Values as the old ones, while with the Version kind
         the Relationship points to the same Version it pointed to before the
         change.
+    
     Besides to the kind of Endpoint Configuration, there are two other
     properties that define the behavior of the Endpoint.
      1. Required: True or False. If an Endpoint is marked as Required, it means
@@ -147,7 +148,7 @@ Relationship Type. This behavior is defined by some properties.
      2. Amount: Single or Multiple. If an Endpoint is marked as Single,it means
         that every item that a Relationship of this Relationship Type could
         could point to with the active Endpoint, can have only one Relationship
-        that points to it. This allows for an Article to have only on Author.
+        that points to it. This allows for an Article to have only one Author.
 
 Namespaces &amp; Prefixes
 -------------------------
